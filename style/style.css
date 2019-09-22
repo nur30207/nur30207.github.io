@@ -1,0 +1,193 @@
+/* Start Body */
+body {
+    background-color: lightgreen;
+    color: #061102;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin : 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-blue {
+    background-color: rgba(8, 218, 8, 0.596);
+}
+.bg-red {
+    background-color: rgb(244, 245, 244);
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Anchor / hyperlink */
+a:link,
+a:visited {
+    color: darkred;
+    text-decoration: none;
+}
+a:hover,
+a.active {
+    color: #061102
+    text-decoration: underline;
+}
+/* End Anchor / hyperlink */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: rgba(46, 104, 5, 0.986);
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 18px rgba(0,0,0,.12);
+}
+
+.menu-primer li {
+
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color: yellow;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    margin-left: 70px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: #ffffff;
+    color: rgb(12, 158, 36);
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: yellow;
+    color: darkgreen;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+/* Start Heading */
+h1, h3, h4, p, ul {
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+h1 {
+    font-size: 50px;
+    margin-left: 70px;
+    text-align: center;
+}
+h3 {
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-align: center;
+}
+h4 {
+    font-size: 20px;
+    text-align: center;
+}
+p {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+ul {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: rgba(138, 219, 46, 0.651);
+    border: 1px solid green;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h4 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+.jumbotron h5 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* End  Jumbotron */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 50%;
+}
+.main-home-two {
+    float: right;
+    width: 49%;
+}
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 140px;
+}
+/* End Main */
+
+/* Start Box */
+.box-heading {
+    background-color: #ffffff;
+    border: 1px solid greenyellow;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-isi {
+    background-color: greenyellow;
+    border: 1px solid #ffffff;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* End Box */
+
+/* Start Produk */
+.produk-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.produk {
+    margin-right: 10px;
+}
+.produk-konten {
+    /* display: inline; */
+}
+.produk-konten p {
+    margin: 0;
+    /* display: inline; */
+}
+/* End Produk */
+
+/* Start Copyright */
+.copyright p {
+    font-size: 15px;
+}
+/* End Copyright */
